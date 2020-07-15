@@ -26,8 +26,8 @@ This project is just to demonstrate how celery can be integrated with django pro
 `celery -A celery_demo events`
 
 ### Step 6 - Monitor celery tasks and workers using flower third party web tool
-`pip install flower`
-`celery -A celery_demo flower`
+- `pip install flower`
+- `celery -A celery_demo flower`
 
 Now go to browser and access flower real time monitoring web tool by using following url
 http://localhost:5555
